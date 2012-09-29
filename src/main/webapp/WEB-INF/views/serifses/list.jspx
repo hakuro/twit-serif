@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_jp_dip_hakuro_twitserif_domain_Serifs" items="${serifses}" z="dofDBM7PrcwbAWdLtsvRnOLPzeE=">
+        <table:table data="${serifses}" id="l_jp_dip_hakuro_twitserif_domain_Serifs" path="/serifses" typeIdFieldName="id_" z="WhVDOJW55xag+TsLwqHIpHgcaqk=">
+            <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_id" property="id" z="lTK4FoEsx3gkeVc5u1B+Qva7nUY="/>
+            <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_screenName" property="screenName" z="NArZKL6v/0h0WdcoKbizyEYBNWo="/>
+            <table:column date="true" dateTimePattern="${serifs_createdat_date_format}" id="c_jp_dip_hakuro_twitserif_domain_Serifs_createdAt" property="createdAt" z="3E6t4cF/aNK+zFIELfwLHLwlTJk="/>
+            <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_text" property="text" z="fexRY0bmsJ7HQO18Cu7jGdf1c1M="/>
+            <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_profileImageUrl" property="profileImageUrl" z="3U7QrCuofsL5/m4gIpQEmbFiGKo="/>
+        </table:table>
+    </page:list>
+</div>

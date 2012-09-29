@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_jp_dip_hakuro_twitserif_domain_Serifs" object="${serifs}" path="/serifses" z="EUFhm+2Kty5lijnsNkgkB4S1H/o=">
+        <field:display field="id" id="s_jp_dip_hakuro_twitserif_domain_Serifs_id" object="${serifs}" z="kDGLCh7ajT7xMfiLcz4kh4/RnY0="/>
+        <field:display field="screenName" id="s_jp_dip_hakuro_twitserif_domain_Serifs_screenName" object="${serifs}" z="vDK8EECxkOBHW+cbr7gDJZEqdyU="/>
+        <field:display date="true" dateTimePattern="${serifs_createdat_date_format}" field="createdAt" id="s_jp_dip_hakuro_twitserif_domain_Serifs_createdAt" object="${serifs}" z="utYCEfrokrOdYnYdZAn9RtCxX6Q="/>
+        <field:display field="text" id="s_jp_dip_hakuro_twitserif_domain_Serifs_text" object="${serifs}" z="E7xMhtwejix0QRVRgJBV0TUVGic="/>
+        <field:display field="profileImageUrl" id="s_jp_dip_hakuro_twitserif_domain_Serifs_profileImageUrl" object="${serifs}" z="lI5HReLMgcyk3fFMRi7sU0OlHFY="/>
+    </page:show>
+</div>
