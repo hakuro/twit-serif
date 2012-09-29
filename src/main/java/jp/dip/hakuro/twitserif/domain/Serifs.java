@@ -26,7 +26,7 @@ public class Serifs {
 
     @NotNull
     @Temporal(TemporalType.TIMESTAMP)
-    @DateTimeFormat(style = "M-")
+    @DateTimeFormat(style = "MM")
     private Date createdAt;
 
     @NotNull
@@ -34,4 +34,5 @@ public class Serifs {
     private String text;
 
     private String profileImageUrl;
+
 }
