@@ -40,12 +40,12 @@ privileged aspect Serifs_Roo_JavaBean {
         this.text = text;
     }
     
-    public String Serifs.getProfileImageUrl() {
-        return this.profileImageUrl;
+    public String Serifs.getImageUrl() {
+        return this.imageUrl;
     }
     
-    public void Serifs.setProfileImageUrl(String profileImageUrl) {
-        this.profileImageUrl = profileImageUrl;
+    public void Serifs.setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
     
 }

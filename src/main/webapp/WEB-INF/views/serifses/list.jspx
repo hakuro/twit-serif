@@ -7,7 +7,7 @@
             <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_id" property="id" z="lTK4FoEsx3gkeVc5u1B+Qva7nUY="/>
             <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_screenName" property="screenName" z="NArZKL6v/0h0WdcoKbizyEYBNWo="/>
             <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_text" property="text" z="fexRY0bmsJ7HQO18Cu7jGdf1c1M="/>
-            <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_profileImageUrl" property="profileImageUrl" z="3U7QrCuofsL5/m4gIpQEmbFiGKo="/>
+            <table:column id="c_jp_dip_hakuro_twitserif_domain_Serifs_imageUrl" property="imageUrl" z="3U7QrCuofsL5/m4gIpQEmbFiGKo="/>
             <table:column date="true" dateTimePattern="${serifs_createdat_date_format}" id="c_jp_dip_hakuro_twitserif_domain_Serifs_createdAt" property="createdAt" z="yJDbz2hzYf6G1DwAspKjtD6Rfj8="/>
         </table:table>
     </page:list>

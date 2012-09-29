@@ -33,6 +33,6 @@ public class Serifs {
     @Size(max = 140)
     private String text;
 
-    private String profileImageUrl;
+    private String imageUrl;
 
 }

@@ -29,7 +29,7 @@ privileged aspect SerifsDataOnDemand_Roo_DataOnDemand {
         Serifs obj = new Serifs();
         setCreatedAt(obj, index);
         setId(obj, index);
-        setProfileImageUrl(obj, index);
+        setImageUrl(obj, index);
         setScreenName(obj, index);
         setText(obj, index);
         return obj;
@@ -45,9 +45,9 @@ privileged aspect SerifsDataOnDemand_Roo_DataOnDemand {
         obj.setId(id);
     }
     
-    public void SerifsDataOnDemand.setProfileImageUrl(Serifs obj, int index) {
-        String profileImageUrl = "profileImageUrl_" + index;
-        obj.setProfileImageUrl(profileImageUrl);
+    public void SerifsDataOnDemand.setImageUrl(Serifs obj, int index) {
+        String imageUrl = "imageUrl_" + index;
+        obj.setImageUrl(imageUrl);
     }
     
     public void SerifsDataOnDemand.setScreenName(Serifs obj, int index) {

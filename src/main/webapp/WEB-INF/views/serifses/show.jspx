@@ -6,7 +6,7 @@
         <field:display field="id" id="s_jp_dip_hakuro_twitserif_domain_Serifs_id" object="${serifs}" z="kDGLCh7ajT7xMfiLcz4kh4/RnY0="/>
         <field:display field="screenName" id="s_jp_dip_hakuro_twitserif_domain_Serifs_screenName" object="${serifs}" z="vDK8EECxkOBHW+cbr7gDJZEqdyU="/>
         <field:display field="text" id="s_jp_dip_hakuro_twitserif_domain_Serifs_text" object="${serifs}" z="E7xMhtwejix0QRVRgJBV0TUVGic="/>
-        <field:display field="profileImageUrl" id="s_jp_dip_hakuro_twitserif_domain_Serifs_profileImageUrl" object="${serifs}" z="lI5HReLMgcyk3fFMRi7sU0OlHFY="/>
+        <field:display field="imageUrl" id="s_jp_dip_hakuro_twitserif_domain_Serifs_imageUrl" object="${serifs}" z="lI5HReLMgcyk3fFMRi7sU0OlHFY="/>
         <field:display date="true" dateTimePattern="${serifs_createdat_date_format}" field="createdAt" id="s_jp_dip_hakuro_twitserif_domain_Serifs_createdAt" object="${serifs}" z="zUCemUpqie77WC5KSLhh6OW7C2w="/>
     </page:show>
 </div>
