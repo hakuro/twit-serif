@@ -371,3 +371,49 @@ fieldset th {
 	height: 11px;
 	width: 16px;
 }
+
+.arrow_box {
+    width: 100;
+    position: relative;
+    background: #FFFFFF;
+    border: 10px solid #488c48;
+}
+
+.arrow_box:after, .arrow_box:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+.arrow_box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #FFFFFF;
+    border-width: 30px;
+    left: 20%;
+    margin-left: -30px;
+}
+
+.arrow_box:before {
+    border-color: rgba(72, 140, 72, 0);
+    border-top-color: #488c48;
+    border-width: 44px;
+    left: 20%;
+    margin-left: -44px;
+}
+
+#serif img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    height: auto !important;
+}
+
+#icon img {
+    height: 48px;
+    width: 48px;
+}
+

@@ -4,11 +4,23 @@
   <spring:message var="app_name" code="application_name" htmlEscape="false" />
   <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
   <util:panel id="title" title="${title}">
-    <h3>
-      <spring:message code="welcome_h3" arguments="${app_name}" />
-    </h3>
-    <p>
-      <spring:message code="welcome_text" />
-    </p>
+    <div id="tweetlist">
+        <form class="form-search">
+            <input type="text" id="searchq" class="input-medium search-query hankaku required"
+                 placeholder="Input search word..." />
+            <button type="button"
+                 class="btn" onClick="$('tbody#serifs').twprepend($('#searchq').val());">start</button>
+        </form>
+        <table class="table-striped">
+            <thead>
+                <th>icon</th>
+                <th>auther</th>
+                <th>tweet</th>
+                <th>button</th>
+            </thead>
+            <tbody id="serifs">
+            </tbody>
+        </table>
+    </div>
   </util:panel>
 </div>
